@@ -1,0 +1,35 @@
+# Maintainer roster for NATS
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "nats"
+    org: "nats-io"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - ColinSullivan1
+          - derekcollison
+          - kozlovic
+          - aricart
+          - wallyqs
+          - gcolliso
+          - davidkemper
+          - pires
+          - olegshaldibin
+          - ripienaar
+          - watfordgnf
+          - brianshannan
+          - charliestrawn
+          - levb
+          - sasbury
+          - mmmries
+          - philpennock
+          - matthiashanel
+          - scottf
+          - jarema
+          - neilalexander
+          - bruth
+          - piotrpio
+          - yunabraska

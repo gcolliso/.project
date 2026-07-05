@@ -1,0 +1,73 @@
+# .project metadata for NATS
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "nats"
+name: "NATS"
+description: "NATS.io is a connective technology for distributed systems and is a perfect fit to connect devices, edge, cloud or hybrid deployments. True multi-tenancy makes NATS ideal for SaaS and self-healing and scaling technology allows for topology changes anytime with zero downtime."
+type: "project"
+project_lead: "ColinSullivan1" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#e01563"
+    primary: true
+  - name: "#general"
+  - name: "#dotnet"
+
+maturity_log:
+  - phase: "incubating"
+    date: "2018-03-15T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/2042" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/nats-io/nats-server"
+
+website: "https://nats.io/"
+
+artwork: "https://landscape.cncf.io/logos/nats.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/nats-io/nats-server/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "nats-io/nats-server"
+
+social:
+  twitter: "https://twitter.com/nats_io"
+
+security:
+  policy:
+    path: "https://github.com/nats-io/nats-server/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/nats-io/nats-server/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/nats-io/nats-server/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/nats-io/nats-server/blob/main/CODE-OF-CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/nats-io/nats-server/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/nats-io/nats-server/blob/main/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Streaming & Messaging"
+
+# CLOMonitor Score: 89/100
+# Documentation: 97 | License: 100 | Best Practices: 54 | Security: 64
