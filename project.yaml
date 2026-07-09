@@ -5,14 +5,15 @@
 schema_version: "1.0.0"
 slug: "nats"
 name: "NATS"
-description: "NATS.io is a connective technology for distributed systems and is a perfect fit to connect devices, edge, cloud or hybrid deployments. True multi-tenancy makes NATS ideal for SaaS and self-healing and scaling technology allows for topology changes anytime with zero downtime."
+description: "NATS.io is a connective technology for distributed systems and is a perfect fit to connect devices, edge, cloud or hybrid deployments. True multi-tenancy makes NATS ideal for SaaS and[...]"
 type: "project"
 project_lead: "derekcollison"
 slack_channels:
   - name: "https://natsio.slack.com"
     primary: true
   - name: "#general"
-cncf_slack_channel: "#nats"
+  - name: "#nats"
+    primary: false
 
 maturity_log:
   - phase: "incubating"
@@ -53,7 +54,7 @@ social:
   youtube: "https://www.youtube.com/@NATS_io"
   
 mailing_lists:
-  google_groups: "https://groups.google.com/u/3/g/natsio"
+  - "https://groups.google.com/u/3/g/natsio"
 
 security:
   policy:
