@@ -12,7 +12,7 @@ slack_channels:
   - name: "https://natsio.slack.com"
     primary: true
   - name: "#general"
-  cncf_slack_channel: "#nats"
+cncf_slack_channel: "#nats"
 
 maturity_log:
   - phase: "incubating"
@@ -50,7 +50,7 @@ package_managers:
 
 social:
   twitter: "https://twitter.com/nats_io"
-  youtube: "https://www.youtube.com/@NATS_io
+  youtube: "https://www.youtube.com/@NATS_io"
   
 mailing_lists:
   google_groups: "https://groups.google.com/u/3/g/natsio"
