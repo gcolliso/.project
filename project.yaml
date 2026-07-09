@@ -9,9 +9,6 @@ description: "NATS.io is a connective technology for distributed systems and is 
 type: "project"
 project_lead: "derekcollison"
 slack_channels:
-  - name: "https://natsio.slack.com"
-    primary: true
-  - name: "#general"
   - name: "#nats"
     primary: false
 
@@ -60,7 +57,7 @@ security:
   policy:
     path: "https://github.com/nats-io/nats-server/blob/main/SECURITY.md"
   contact:
-    advisory_url: "https://advisories.nats.io/"
+    advisory_url: "https://github.com/nats-io/advisories"
 
 governance:
   contributing:
