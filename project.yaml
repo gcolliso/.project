@@ -45,6 +45,7 @@ adopters:
 package_managers:
   docker: "nats-io/nats-server"
   npm: "@nats-io/nats-core"
+  nixpkgs: "https://github.com/NixOS/nixpkgs"
 
 social:
   twitter: "https://twitter.com/nats_io"
