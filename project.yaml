@@ -5,7 +5,7 @@
 schema_version: "1.0.0"
 slug: "nats"
 name: "NATS"
-description: "NATS.io is a connective technology for distributed systems and is a perfect fit to connect devices, edge, cloud or hybrid deployments. True multi-tenancy makes NATS ideal for SaaS and[...]"
+description: "Real-Time Communication Fabric for Distributed Agents and Applications. NATS unifies messaging, streaming, and state into one real-time system — connecting services, devices, and AI agents from cloud to edge."
 type: "project"
 project_lead: "derekcollison"
 slack_channels:
